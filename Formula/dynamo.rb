@@ -1,8 +1,8 @@
 class Dynamo < Formula
   desc "Battery charge limiter and power monitor for Apple Silicon Macs"
   homepage "https://github.com/arshdwani/Dynamo"
-  url "https://github.com/arshdwani/Dynamo/archive/refs/tags/v1.4.tar.gz"
-  sha256 "3d35bd1ce5681147be495d4b2539d8b9c1f20571b15982720e4b94abc303037f"
+  url "https://github.com/arshdwani/Dynamo/archive/refs/tags/v1.5.tar.gz"
+  sha256 "9e26557f076b91247968c3d397a108ba95f544266e1043f7331250800771748e"
   license "MIT"
 
   depends_on arch: :arm64
