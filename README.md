@@ -1,18 +1,13 @@
-# Arshdwani Tap
+# arshdwani/tap
 
-## How do I install these formulae?
+Homebrew formulae by [@arshdwani](https://github.com/arshdwani).
 
-`brew install arshdwani/tap/<formula>`
+## Dynamo
 
-Or `brew tap arshdwani/tap` and then `brew install <formula>`.
+Battery care for Apple Silicon Macs: charge limit, calibration, battery health and
+energy monitoring in your menu bar. See [arshdwani/Dynamo](https://github.com/arshdwani/Dynamo).
 
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "arshdwani/tap"
-brew "<formula>"
+```bash
+brew install arshdwani/tap/dynamo
+dynamo-setup
 ```
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
